@@ -46,7 +46,7 @@ config.options = {
         panel = "shelf",
 
         error = "ember",
-        hint = "slate",
+        hint = "frost",
         info = "aqua",
         ok = "jade",
         warn = "ivory",
