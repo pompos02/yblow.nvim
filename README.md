@@ -1,7 +1,5 @@
 # yblow.nvim
 
-`yblow.nvim` is a Neovim colorscheme derived from `yara.nvim` and backed exclusively by its Blow palette.
-
 ## Install
 
 ### lazy.nvim
