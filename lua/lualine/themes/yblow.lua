@@ -1,4 +1,4 @@
-local p = require("yara_blow.palette")
+local p = require("yblow.palette")
 
 local active_bg = "#cbb18d"
 local active_fg = "#071412"
@@ -30,8 +30,8 @@ return {
         c = { bg = active_bg, fg = active_fg },
     },
     inactive = {
-        a = { bg = p.reef, fg = p.mist, gui = "bold" },
-        b = { bg = p.reef, fg = p.mist },
-        c = { bg = p.reef, fg = p.mist },
+        a = { bg = p.pine_canopy, fg = p.sea_glass, gui = "bold" },
+        b = { bg = p.pine_canopy, fg = p.sea_glass },
+        c = { bg = p.pine_canopy, fg = p.sea_glass },
     },
 }

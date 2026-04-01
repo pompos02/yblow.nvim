@@ -1,14 +1,14 @@
 lua << EOF
-require("yara_blow").colorscheme()
+require("yblow").colorscheme()
 EOF
 
-augroup yara_blow_background
+augroup yblow_background
   autocmd!
-  autocmd OptionSet background call <SID>yara_blow_refresh()
+  autocmd OptionSet background call <SID>yblow_refresh()
 augroup END
 
-function! s:yara_blow_refresh() abort
+function! s:yblow_refresh() abort
   if g:colors_name ==# 'yblow'
-    lua require("yara_blow").colorscheme()
+    lua require("yblow").colorscheme()
   endif
 endfunction
