@@ -132,9 +132,9 @@ local function set_highlights()
 		SpellCap = { sp = palette.subtle, undercurl = true },
 		SpellLocal = { sp = palette.subtle, undercurl = true },
 		SpellRare = { sp = palette.subtle, undercurl = true },
-		StatusLine = { fg = palette.text, bg = palette.shadow },
+		StatusLine = { fg = "#071412", bg = "#cbb18d" },
 		StatusLineNC = { fg = palette.mist, bg = palette.reef },
-		StatusLineTerm = { fg = palette.text, bg = palette.shadow },
+		StatusLineTerm = { fg = "#071412", bg = "#cbb18d" },
 		StatusLineTermNC = { fg = palette.mist, bg = palette.reef },
 		Substitute = { link = "IncSearch" },
 		TabLine = { fg = palette.subtle, bg = palette.surface },
@@ -830,14 +830,14 @@ local function set_highlights()
 
 		MiniStatuslineDevinfo = { fg = palette.mist, bg = palette.shadow },
 		MiniStatuslineFileinfo = { link = "MiniStatuslineDevinfo" },
-		MiniStatuslineFilename = { fg = palette.text, bg = palette.shadow },
+		MiniStatuslineFilename = { fg = "#071412", bg = "#cbb18d" },
 		MiniStatuslineInactive = { fg = palette.mist, bg = palette.reef },
-		MiniStatuslineModeCommand = { fg = palette.shadow, bg = palette.mist, bold = styles.bold },
-		MiniStatuslineModeInsert = { fg = palette.shadow, bg = palette.mist, bold = styles.bold },
-		MiniStatuslineModeNormal = { fg = palette.shadow, bg = palette.mist, bold = styles.bold },
-		MiniStatuslineModeOther = { fg = palette.shadow, bg = palette.mist, bold = styles.bold },
-		MiniStatuslineModeReplace = { fg = palette.shadow, bg = palette.mist, bold = styles.bold },
-		MiniStatuslineModeVisual = { fg = palette.shadow, bg = palette.mist, bold = styles.bold },
+		MiniStatuslineModeCommand = { fg = "#071412", bg = "#cbb18d", bold = styles.bold },
+		MiniStatuslineModeInsert = { fg = "#071412", bg = "#cbb18d", bold = styles.bold },
+		MiniStatuslineModeNormal = { fg = "#071412", bg = "#cbb18d", bold = styles.bold },
+		MiniStatuslineModeOther = { fg = "#071412", bg = "#cbb18d", bold = styles.bold },
+		MiniStatuslineModeReplace = { fg = "#071412", bg = "#cbb18d", bold = styles.bold },
+		MiniStatuslineModeVisual = { fg = "#071412", bg = "#cbb18d", bold = styles.bold },
 
 		MiniSurround = { link = "IncSearch" },
 
@@ -1074,7 +1074,7 @@ local function set_highlights()
 		Pmenu = { fg = palette.subtle, bg = "NONE" },
 		PmenuKind = { fg = palette.lavender, bg = "NONE" },
 		SignColumn = { fg = palette.text, bg = "NONE" },
-		StatusLine = { fg = palette.text, bg = palette.shadow },
+		StatusLine = { fg = "#071412", bg = "#cbb18d" },
 		StatusLineNC = { fg = palette.mist, bg = palette.reef },
 		TabLine = { bg = "NONE", fg = palette.subtle },
 		TabLineFill = { bg = "NONE" },
@@ -1203,7 +1203,7 @@ function M.colorscheme(name)
 		vim.cmd("hi clear")
 		vim.cmd("syntax reset")
 	end
-	vim.g.colors_name = name or "yara-blow"
+	vim.g.colors_name = name or "yblow"
 
 	package.loaded["yara_blow.palette"] = nil
 	set_highlights()

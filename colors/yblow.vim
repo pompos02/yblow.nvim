@@ -8,7 +8,7 @@ augroup yara_blow_background
 augroup END
 
 function! s:yara_blow_refresh() abort
-  if g:colors_name ==# 'yara-blow'
+  if g:colors_name ==# 'yblow'
     lua require("yara_blow").colorscheme()
   endif
 endfunction
