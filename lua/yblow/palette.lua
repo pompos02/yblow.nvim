@@ -16,6 +16,7 @@ local palette = {
 	ice = "#c1d1e3",
 	mint = "#8cde94",
 	turquoise = "#7ad0c6",
+	magenta = "#952aa3",
 	steel = "#748a92",
 	deep_shadow = "#0d2622",
 	pine_crest = "#3b655d",
