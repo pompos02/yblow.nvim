@@ -1,7 +1,7 @@
 local p = require("yblow.palette")
 
-local active_bg = "#cbb18d"
-local active_fg = "#071412"
+local active_bg = p.sea_pine
+local active_fg = p.parchment
 
 return {
     normal = {
