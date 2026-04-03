@@ -496,7 +496,7 @@ local function set_highlights()
 		WhichKeyIconOrange = { fg = palette.crimson },
 		WhichKeyIconPurple = { fg = palette.steel },
 		WhichKeyIconRed = { fg = palette.crimson },
-		WhichKeyIconYellow = { fg = palette.chalk },
+		WhichKeyIconYellow = { fg = palette.yellow },
 		WhichKeyNormal = { link = "NormalFloat" },
 		WhichKeySeparator = { fg = palette.sea_glass },
 		WhichKeyTitle = { link = "FloatTitle" },
@@ -720,7 +720,7 @@ local function set_highlights()
 		TroubleIndentFoldClosed = { fg = palette.sage, bg = palette.deep_pine },
 		TroubleIndentFoldOpen = { fg = palette.sage, bg = palette.deep_pine },
 		TroubleSignError = { fg = palette.crimson, bg = palette.deep_pine },
-		TroubleSignWarning = { fg = palette.chalk, bg = palette.deep_pine },
+		TroubleSignWarning = { fg = palette.yellow, bg = palette.deep_pine },
 		TroubleSignInformation = { fg = palette.turquoise, bg = palette.deep_pine },
 		TroubleSignHint = { fg = palette.steel, bg = palette.deep_pine },
 		TroubleSignOther = { fg = palette.steel, bg = palette.deep_pine },
@@ -782,7 +782,7 @@ local function set_highlights()
 		MiniIconsOrange = { fg = palette.crimson },
 		MiniIconsPurple = { fg = palette.steel },
 		MiniIconsRed = { fg = palette.crimson },
-		MiniIconsYellow = { fg = palette.chalk },
+		MiniIconsYellow = { fg = palette.yellow },
 
 		MiniIndentscopeSymbol = { fg = palette.sage },
 		MiniIndentscopeSymbolOff = { fg = palette.chalk },
@@ -880,7 +880,7 @@ local function set_highlights()
 		RainbowDelimiterOrange = { fg = palette.crimson },
 		RainbowDelimiterRed = { fg = palette.crimson },
 		RainbowDelimiterViolet = { fg = palette.steel },
-		RainbowDelimiterYellow = { fg = palette.chalk },
+		RainbowDelimiterYellow = { fg = palette.yellow },
 
 		RenderMarkdownH1 = { fg = groups.h1, bold = styles.bold },
 		RenderMarkdownH2 = { fg = groups.h2, bold = styles.bold },
@@ -1187,8 +1187,8 @@ local function set_highlights()
 		vim.g.terminal_color_9 = palette.crimson
 		vim.g.terminal_color_2 = palette.ice
 		vim.g.terminal_color_10 = palette.ice
-		vim.g.terminal_color_3 = palette.chalk
-		vim.g.terminal_color_11 = palette.chalk
+		vim.g.terminal_color_3 = palette.yellow
+		vim.g.terminal_color_11 = palette.yellow
 		vim.g.terminal_color_4 = palette.turquoise
 		vim.g.terminal_color_12 = palette.turquoise
 		vim.g.terminal_color_5 = palette.steel

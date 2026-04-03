@@ -4,7 +4,7 @@ return {
     bg = p.parchment,
     fg = p.deep_shadow,
     fg_alt = p.sea_glass,
-    yellow = p.chalk,
+    yellow = p.yellow,
     cyan = p.crimson,
     green = p.ice,
     orange = p.sage,

@@ -10,6 +10,7 @@ local palette = {
 	sea_glass = "#8eaca5",
 	parchment = "#d8c5a7",
 	chalk = "#ffffff",
+	yellow = "#f2d06b",
 	lime = "#21d813",
 	jade = "#2ea87e",
 	crimson = "#F43841",

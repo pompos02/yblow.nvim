@@ -8,6 +8,7 @@
 ---| "sea_glass"
 ---| "parchment"
 ---| "chalk"
+---| "yellow"
 ---| "lime"
 ---| "crimson"
 ---| "ice"
@@ -47,14 +48,14 @@ config.options = {
         hint = "ice",
         info = "turquoise",
         ok = "jade",
-        warn = "chalk",
+        warn = "yellow",
         note = "ice",
         todo = "crimson",
 
         git_add = "jade",
-        git_change = "chalk",
+        git_change = "yellow",
         git_delete = "crimson",
-        git_dirty = "chalk",
+        git_dirty = "yellow",
         git_ignore = "sage",
         git_merge = "steel",
         git_rename = "ice",
