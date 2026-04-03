@@ -298,11 +298,11 @@ local function set_highlights()
 		["@attribute"] = { fg = palette.parchment },
 
 		["@function"] = { link = "Function" },
-		["@function.builtin"] = { link = "Function" },
-		["@function.macro"] = { link = "Function" },
+		["@function.call"] = { link = "@text" },
+		["@function.builtin"] = { link = "@text" },
+		["@function.macro"] = { link = "@text" },
 
-		["@function.method"] = { link = "Function" },
-		["@function.method.call"] = { link = "Function" },
+		["@function.method"] = { link = "@text" },
 
 		["@constructor"] = { link = "Function" },
 		["@operator"] = { link = "Operator" },
