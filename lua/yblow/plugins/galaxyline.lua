@@ -1,14 +1,14 @@
 local p = require("yblow.palette")
 
 return {
-    bg = p.parchment,
-    fg = p.deep_shadow,
-    fg_alt = p.sea_glass,
-    yellow = p.yellow,
-    cyan = p.crimson,
-    green = p.ice,
-    orange = p.sage,
-    magenta = p.steel,
-    blue = p.turquoise,
-    red = p.crimson,
+    bg = p.text,
+    fg = p.c17,
+    fg_alt = p.c6,
+    yellow = p.c8,
+    cyan = p.c11,
+    green = p.c12,
+    orange = p.c5,
+    magenta = p.c16,
+    blue = p.c14,
+    red = p.c11,
 }

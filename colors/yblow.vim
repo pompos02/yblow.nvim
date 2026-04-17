@@ -1,5 +1,5 @@
 lua << EOF
-require("yblow").colorscheme()
+require("yblow").colorscheme("yblow")
 EOF
 
 augroup yblow_background
@@ -9,6 +9,6 @@ augroup END
 
 function! s:yblow_refresh() abort
   if g:colors_name ==# 'yblow'
-    lua require("yblow").colorscheme()
+    lua require("yblow").colorscheme("yblow")
   endif
 endfunction

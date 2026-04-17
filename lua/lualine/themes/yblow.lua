@@ -1,7 +1,7 @@
 local p = require("yblow.palette")
 
-local active_bg = p.sea_pine
-local active_fg = p.parchment
+local active_bg = p.c2
+local active_fg = p.text
 
 return {
     normal = {
@@ -30,8 +30,8 @@ return {
         c = { bg = active_bg, fg = active_fg },
     },
     inactive = {
-        a = { bg = p.pine_canopy, fg = p.sea_glass, gui = "bold" },
-        b = { bg = p.pine_canopy, fg = p.sea_glass },
-        c = { bg = p.pine_canopy, fg = p.sea_glass },
+        a = { bg = p.c2, fg = p.c6, gui = "bold" },
+        b = { bg = p.c2, fg = p.c6 },
+        c = { bg = p.c2, fg = p.c6 },
     },
 }

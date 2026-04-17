@@ -33,6 +33,12 @@ local function color_to_rgb(color)
 end
 
 local color_cache = {}
+local blend_cache = {}
+
+function utilities.clear_cache()
+	color_cache = {}
+	blend_cache = {}
+end
 
 ---@param color string Palette key or hex value
 function utilities.parse_color(color)
@@ -75,8 +81,6 @@ function utilities.parse_color(color)
     color_cache[color] = color
     return color
 end
-
-local blend_cache = {}
 
 ---@param fg string Foreground color
 ---@param bg string Background color

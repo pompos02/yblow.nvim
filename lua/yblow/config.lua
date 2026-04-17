@@ -1,23 +1,24 @@
 ---@alias PaletteColor
----| "deep_pine"
----| "forest_floor"
----| "pine_canopy"
----| "mossy_bark"
----| "sea_pine"
----| "sage"
----| "sea_glass"
----| "parchment"
----| "chalk"
----| "yellow"
----| "lime"
----| "crimson"
----| "ice"
----| "mint"
----| "turquoise"
----| "steel"
----| "jade"
----| "deep_shadow"
----| "pine_crest"
+---| "bg"
+---| "text"
+---| "c1"
+---| "c2"
+---| "c3"
+---| "c4"
+---| "c5"
+---| "c6"
+---| "c7"
+---| "c8"
+---| "c9"
+---| "c10"
+---| "c11"
+---| "c12"
+---| "c13"
+---| "c14"
+---| "c15"
+---| "c16"
+---| "c17"
+---| "c18"
 ---@alias Highlight { link: string, inherit: boolean } | { fg: string, bg: string, sp: string, bold: boolean, italic: boolean, undercurl: boolean, underline: boolean, underdouble: boolean, underdotted: boolean, underdashed: boolean, strikethrough: boolean, inherit: boolean }
 
 local config = {}
@@ -40,35 +41,35 @@ config.options = {
     palette = {},
     ---@type table<string, string | PaletteColor>
     groups = {
-        border = "sage",
-        link = "steel",
-        panel = "mossy_bark",
+        border = "c5",
+        link = "c16",
+        panel = "c3",
 
-        error = "crimson",
-        hint = "ice",
-        info = "turquoise",
-        ok = "jade",
-        warn = "yellow",
-        note = "ice",
-        todo = "crimson",
+        error = "c11",
+        hint = "c12",
+        info = "c14",
+        ok = "c10",
+        warn = "c8",
+        note = "c12",
+        todo = "c11",
 
-        git_add = "jade",
-        git_change = "yellow",
-        git_delete = "crimson",
-        git_dirty = "yellow",
-        git_ignore = "sage",
-        git_merge = "steel",
-        git_rename = "ice",
-        git_stage = "steel",
-        git_text = "crimson",
-        git_untracked = "sea_glass",
+        git_add = "c10",
+        git_change = "c8",
+        git_delete = "c11",
+        git_dirty = "c8",
+        git_ignore = "c5",
+        git_merge = "c16",
+        git_rename = "c12",
+        git_stage = "c16",
+        git_text = "c11",
+        git_untracked = "c6",
 
-        h1 = "jade",
-        h2 = "chalk",
-        h3 = "ice",
-        h4 = "turquoise",
-        h5 = "crimson",
-        h6 = "lime",
+        h1 = "c10",
+        h2 = "c7",
+        h3 = "c12",
+        h4 = "c14",
+        h5 = "c11",
+        h6 = "c9",
     },
     ---@type table<string, Highlight>
     highlight_groups = {},
@@ -82,7 +83,7 @@ config.options = {
 
 local function migrate(options)
     if options.bold_vert_split then
-        local border = options.groups.border or "sage"
+        local border = options.groups.border or "c5"
         options.highlight_groups["VertSplit"] = { fg = border, bg = border }
         options.highlight_groups["WinSeparator"] = { fg = border, bg = border }
     end

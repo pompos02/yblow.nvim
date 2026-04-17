@@ -15,3 +15,11 @@ return {
 ```lua
 vim.cmd.colorscheme("yblow")
 ```
+
+```lua
+vim.cmd.colorscheme("yblow-dark")
+```
+
+```lua
+vim.cmd.colorscheme("yblow-light")
+```
