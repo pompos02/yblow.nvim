@@ -15,8 +15,7 @@ local function set_highlights()
 		fg = utilities.parse_color(fg or groups.border)
 		return {
 			fg = fg,
-			bg = (config.options.extend_background_behind_borders and not styles.transparency) and palette.bg
-				or "NONE",
+			bg = (config.options.extend_background_behind_borders and not styles.transparency) and palette.bg or "NONE",
 		}
 	end
 
@@ -110,10 +109,10 @@ local function set_highlights()
 		PmenuExtraSel = { fg = palette.c6, bg = palette.c17 },
 		PmenuKind = { fg = palette.c14, bg = palette.bg },
 		PmenuKindSel = { fg = palette.c6, bg = palette.c17 },
-		PmenuMatch = { fg = palette.c12 },
-		PmenuMatchSel = { fg = palette.c12, bg = palette.c17 },
+		PmenuMatch = { fg = palette.c12, bg = "NONE" },
+		PmenuMatchSel = { fg = palette.c12, bg = "NONE" },
 		PmenuSbar = { bg = palette.c3 },
-		PmenuSel = { fg = palette.text, bg = palette.c17 },
+		PmenuSel = { fg = palette.text, bg = palette.bg },
 		PmenuThumb = { bg = palette.c6 },
 		Question = { fg = palette.c7 },
 		qfFileName = { fg = palette.c10 },
@@ -196,7 +195,7 @@ local function set_highlights()
 		Function = { fg = palette.c12 },
 		Identifier = { fg = palette.text },
 		Include = { fg = palette.text },
-		Keyword = { fg = palette.c7, bold = true},
+		Keyword = { fg = palette.c7, bold = true },
 		Label = { fg = palette.c14 },
 		LspCodeLens = { fg = palette.c6 },
 		LspCodeLensSeparator = { fg = palette.c5 },
