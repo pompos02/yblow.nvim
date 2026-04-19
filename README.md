@@ -6,7 +6,7 @@
 
 ```lua
 return {
-  "your-name/yblow.nvim",
+  "pompos02/yblow.nvim",
 }
 ```
 
