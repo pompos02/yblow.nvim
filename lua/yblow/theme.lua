@@ -76,7 +76,7 @@ local function set_highlights()
 		ColorColumn = { bg = palette.c3 },
 		Conceal = { bg = "NONE" },
 		CurSearch = { fg = "NONE", bg = palette.c15, bold = styles.bold, blend = 80 },
-		Cursor = { fg = palette.text, bg = palette.c18 },
+		Cursor = { fg = palette.text },
 		CursorColumn = { bg = palette.c3 },
 		CursorLine = { bg = palette.c3 },
 		CursorLineNr = { fg = palette.text, bg = palette.bg, bold = styles.bold },
@@ -181,7 +181,7 @@ local function set_highlights()
 		DiagnosticVirtualTextOk = { fg = groups.ok, bg = groups.ok, blend = 10 },
 		DiagnosticVirtualTextWarn = { fg = groups.warn, bg = groups.warn, blend = 10 },
 
-		Boolean = { fg = palette.text },
+		Boolean = { fg = palette.c14 },
 		Character = { link = "String" },
 		Comment = { fg = palette.c9 },
 		Conditional = { fg = palette.c7 },
