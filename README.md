@@ -30,6 +30,11 @@ vim.cmd.colorscheme("yblow-g")
 vim.cmd.colorscheme("yblow-onedark")
 ```
 
+```lua
+vim.cmd.colorscheme("yblow-gruvbox")
+```
+
 `yblow` switches between the default dark and light palettes from `vim.o.background`.
 `yblow-g` keeps the original green palette.
 `yblow-onedark` switches between its dark and light One Dark palettes from `vim.o.background`.
+`yblow-gruvbox` switches between its dark and light Gruvbox palettes from `vim.o.background`.
