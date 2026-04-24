@@ -163,52 +163,6 @@ local palette = {
 			c18 = "#ddccab", -- cursor surface
 		},
 	},
-	github = {
-		dark = {
-			bg = "#0d1117", -- main background
-			c1 = "#010409", -- dim background
-			c2 = "#161b22", -- raised surface
-			c3 = "#21262d", -- active surface
-			c4 = "#30363d", -- accent surface
-			c5 = "#6e7681", -- muted foreground
-			c6 = "#848d97", -- secondary foreground
-			text = "#e6edf3", -- primary foreground
-			c7 = "#f0f6fc", -- strong foreground
-			c8 = "#d29922", -- warning accent
-			c9 = "#8b949e", -- comment accent
-			c10 = "#3fb950", -- success accent
-			c11 = "#f85149", -- error accent
-			c12 = "#79c0ff", -- cool highlight
-			c13 = "#7ee787", -- type accent
-			c14 = "#d2a8ff", -- primary accent
-			c15 = "#f0883e", -- search accent
-			c16 = "#2f81f7", -- tertiary accent
-			c17 = "#1f2630", -- selected surface
-			c18 = "#3d444d", -- cursor surface
-		},
-		light = {
-			bg = "#ffffff", -- main background
-			c1 = "#f6f8fa", -- dim background
-			c2 = "#f6f8fa", -- raised surface
-			c3 = "#eaeef2", -- active surface
-			c4 = "#d0d7de", -- accent surface
-			c5 = "#6e7781", -- muted foreground
-			c6 = "#656d76", -- secondary foreground
-			text = "#1f2328", -- primary foreground
-			c7 = "#24292f", -- strong foreground
-			c8 = "#9a6700", -- warning accent
-			c9 = "#57606a", -- comment accent
-			c10 = "#1a7f37", -- success accent
-			c11 = "#d1242f", -- error accent
-			c12 = "#0550ae", -- cool highlight
-			c13 = "#116329", -- type accent
-			c14 = "#8250df", -- primary accent
-			c15 = "#bc4c00", -- search accent
-			c16 = "#0969da", -- tertiary accent
-			c17 = "#ddf4ff", -- selected surface
-			c18 = "#d0d7de", -- cursor surface
-		},
-	},
 }
 
 local function apply_overrides(colors)
