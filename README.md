@@ -32,4 +32,4 @@ vim.cmd.colorscheme("yblow-onedark")
 
 `yblow` switches between the default dark and light palettes from `vim.o.background`.
 `yblow-g` keeps the original green palette.
-`yblow-onedark` always uses its dark palette.
+`yblow-onedark` switches between its dark and light One Dark palettes from `vim.o.background`.

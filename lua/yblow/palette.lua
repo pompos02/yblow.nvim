@@ -94,6 +94,28 @@ local palette = {
 			c17 = "#2f343f", -- selected surface
 			c18 = "#4b5263", -- cursor surface
 		},
+		light = {
+			bg = "#fafafa", -- main background
+			c1 = "#f0f0f1", -- dim background
+			c2 = "#e5e7eb", -- raised surface
+			c3 = "#dfe3e8", -- active surface
+			c4 = "#d7dce3", -- accent surface
+			c5 = "#a0a1a7", -- muted foreground
+			c6 = "#696c77", -- secondary foreground
+			text = "#383a42", -- primary foreground
+			c7 = "#202227", -- strong foreground
+			c8 = "#c18401", -- warning accent
+			c9 = "#a0a1a7", -- comment accent
+			c10 = "#50a14f", -- success accent
+			c11 = "#e45649", -- error accent
+			c12 = "#4078f2", -- cool highlight
+			c13 = "#986801", -- type accent
+			c14 = "#a626a4", -- primary accent
+			c15 = "#d18f52", -- search accent
+			c16 = "#0184bc", -- tertiary accent
+			c17 = "#e5e7eb", -- selected surface
+			c18 = "#c9cdd4", -- cursor surface
+		},
 	},
 }
 
