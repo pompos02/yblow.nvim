@@ -1196,8 +1196,9 @@ local function set_highlights()
 	end
 end
 
+
 ---@param name? string
-function M.colorscheme(name)
+function M.apply(name)
 	vim.opt.termguicolors = true
 	if vim.g.colors_name then
 		vim.cmd("hi clear")
@@ -1208,6 +1209,11 @@ function M.colorscheme(name)
 	package.loaded["yblow.palette"] = nil
 	require("yblow.utilities").clear_cache()
 	set_highlights()
+end
+
+---@param name? string
+function M.colorscheme(name)
+	require(("yblow.themes.%s.theme"):format(name or "yblow")).colorscheme()
 end
 
 function M.setup(options)
