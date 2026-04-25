@@ -75,7 +75,7 @@ local function set_highlights()
 	local default_highlights = {
 		ColorColumn = { bg = palette.c3 },
 		Conceal = { bg = "NONE" },
-		CurSearch = { fg = palette.text, bg = palette.c15, bold = styles.bold, blend = 80 },
+		CurSearch = { fg = palette.bg, bg = palette.c15, bold = styles.bold, blend = 80 },
 		Cursor = { fg = palette.text },
 		CursorColumn = { bg = palette.c3 },
 		CursorLine = { bg = palette.c3 },
@@ -94,7 +94,7 @@ local function set_highlights()
 		FloatTitle = { fg = palette.text, bg = palette.bg },
 		FoldColumn = { fg = palette.c5, bg = palette.bg },
 		Folded = { fg = palette.c9, bg = palette.c16, blend = 50 },
-		IncSearch = { fg = "NONE", bg = palette.c15 },
+		IncSearch = { fg = palette.bg, bg = palette.c15 },
 		LineNr = { fg = palette.c5, bg = palette.bg },
 		MatchParen = { fg = palette.c12, bg = palette.c12, blend = 25 },
 		ModeMsg = { fg = palette.c6 },
