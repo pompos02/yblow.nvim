@@ -1,40 +1,23 @@
-# yblow.nvim
+# dolores.nvim
 
 ## Install
 
-### lazy.nvim
-
 ```lua
 return {
-  "pompos02/yblow.nvim",
+  "pompos02/dolores.nvim",
 }
 ```
 
 ## Usage
 
 ```lua
-vim.o.background = "dark"
-vim.cmd.colorscheme("yblow")
+vim.o.background = "dark" -- or "light"
+vim.cmd.colorscheme("dolores")
 ```
 
-```lua
-vim.o.background = "light"
-vim.cmd.colorscheme("yblow")
-```
+Available schemes:
 
-```lua
-vim.cmd.colorscheme("yblow-g")
-```
-
-```lua
-vim.cmd.colorscheme("yblow-onedark")
-```
-
-```lua
-vim.cmd.colorscheme("yblow-gruvbox")
-```
-
-`yblow` switches between the default dark and light palettes from `vim.o.background`.
-`yblow-g` keeps the original green palette.
-`yblow-onedark` switches between its dark and light One Dark palettes from `vim.o.background`.
-`yblow-gruvbox` switches between Gruvbox Material dark and light palettes from `vim.o.background`.
+- `dolores`: default palette, switches with `vim.o.background`
+- `dolores-kif`: green palette
+- `dolores-thalasses`: One Dark palette, switches with `vim.o.background`
+- `dolores-sotiria-bellou`: Gruvbox palette, switches with `vim.o.background`

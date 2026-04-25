@@ -1,9 +1,9 @@
 local M = {}
-local config = require("yblow.config")
+local config = require("dolores.config")
 
 local function set_highlights()
-	local utilities = require("yblow.utilities")
-	local palette = require("yblow.palette")
+	local utilities = require("dolores.utilities")
+	local palette = require("dolores.palette")
 	local styles = config.options.styles
 
 	local groups = {}
@@ -1185,12 +1185,12 @@ local function set_highlights()
 		vim.g.terminal_color_15 = palette.text
 
 		vim.cmd([[
-		augroup yblow
+		augroup dolores
 			autocmd!
 			autocmd TermOpen * if &buftype=='terminal'
 				\|setlocal winhighlight=StatusLine:StatusLineTerm,StatusLineNC:StatusLineTermNC
 				\|else|setlocal winhighlight=|endif
-			autocmd ColorSchemePre * autocmd! yblow
+			autocmd ColorSchemePre * autocmd! dolores
 		augroup END
 		]])
 	end
@@ -1204,16 +1204,16 @@ function M.apply(name)
 		vim.cmd("hi clear")
 		vim.cmd("syntax reset")
 	end
-	vim.g.colors_name = name or "yblow"
+	vim.g.colors_name = name or "dolores"
 
-	package.loaded["yblow.palette"] = nil
-	require("yblow.utilities").clear_cache()
+	package.loaded["dolores.palette"] = nil
+	require("dolores.utilities").clear_cache()
 	set_highlights()
 end
 
 ---@param name? string
 function M.colorscheme(name)
-	require(("yblow.themes.%s.theme"):format(name or "yblow")).colorscheme()
+	require(("dolores.themes.%s.theme"):format(name or "dolores")).colorscheme()
 end
 
 function M.setup(options)

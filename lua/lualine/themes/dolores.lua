@@ -1,5 +1,5 @@
-local p = require("yblow.palette")
-local config = require("yblow.config")
+local p = require("dolores.palette")
+local config = require("dolores.config")
 
 local bg_base = p.c2
 if config.options.styles.transparency then

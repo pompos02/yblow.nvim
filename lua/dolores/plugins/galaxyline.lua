@@ -1,4 +1,4 @@
-local p = require("yblow.palette")
+local p = require("dolores.palette")
 
 return {
     bg = p.text,

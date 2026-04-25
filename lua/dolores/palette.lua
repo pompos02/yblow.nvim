@@ -1,7 +1,7 @@
-local options = require("yblow.config").options
+local options = require("dolores.config").options
 
 local palette = {
-	yblow = {
+	dolores = {
 		dark = {
 			bg = "#181818", -- main background
 			c1 = "#101112", -- dim background
@@ -47,7 +47,7 @@ local palette = {
 			c18 = "#cfd6dc", -- cursor surface
 		},
 	},
-	g = {
+	kif = {
 		dark = {
 			bg = "#112e2a", -- main background
 			c1 = "#0b211d", -- dim background
@@ -71,7 +71,7 @@ local palette = {
 			c18 = "#3b655d", -- cursor surface
 		},
 	},
-	onedark = {
+	thalasses = {
 		dark = {
 			bg = "#282c34", -- main background
 			c1 = "#21252b", -- dim background
@@ -117,7 +117,7 @@ local palette = {
 			c18 = "#c9cdd4", -- cursor surface
 		},
 	},
-	gruvbox = {
+	["sotiria-bellou"] = {
 		dark = {
 			bg = "#282828", -- main background
 			c1 = "#1b1b1b", -- dim background
@@ -179,16 +179,16 @@ local function apply_overrides(colors)
 end
 
 local function active_family()
-	if vim.g.colors_name == nil or vim.g.colors_name == "yblow" then
-		return "yblow"
+	if vim.g.colors_name == nil or vim.g.colors_name == "dolores" then
+		return "dolores"
 	end
 
-	local family = vim.g.colors_name:match("^yblow%-(.+)$")
+	local family = vim.g.colors_name:match("^dolores%-(.+)$")
 	if family ~= nil and palette[family] ~= nil then
 		return family
 	end
 
-	return "yblow"
+	return "dolores"
 end
 
 local function active_mode(family)

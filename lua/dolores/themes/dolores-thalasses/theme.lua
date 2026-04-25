@@ -1,7 +1,7 @@
 local M = {}
 
 function M.colorscheme()
-	require("yblow.theme").apply("yblow-onedark")
+	require("dolores.theme").apply("dolores-thalasses")
 end
 
 return M

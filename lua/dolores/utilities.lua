@@ -68,7 +68,7 @@ function utilities.parse_color(color)
     color = color:lower()
 
     if not color:find("#") then
-		color = require("yblow.palette")[color] or color
+		color = require("dolores.palette")[color] or color
 
         if type(color) == "string" and not color:find("#") then
             local parsed = vim.api.nvim_get_color_by_name(color)
