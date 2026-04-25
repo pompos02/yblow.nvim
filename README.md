@@ -1,5 +1,7 @@
 # dolores.nvim
 
+A Neovim colorscheme focused on simplicity and readability.
+
 ## Install
 
 ```lua
