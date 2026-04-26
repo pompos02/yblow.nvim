@@ -297,9 +297,9 @@ local function set_highlights()
 		["@attribute"] = { fg = palette.text },
 
 		["@function"] = { link = "Function" },
-		["@function.call"] = { link = "@text" },
-		["@function.builtin"] = { link = "@text" },
-		["@function.macro"] = { link = "@text" },
+		-- ["@function.call"] = { link = "@text" },
+		-- ["@function.builtin"] = { link = "@text" },
+		-- ["@function.macro"] = { link = "@text" },
 
 		["@function.method"] = { link = "@text" },
 

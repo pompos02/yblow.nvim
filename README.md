@@ -23,3 +23,4 @@ Available schemes:
 - `dolores-kif`: green palette
 - `dolores-thalasses`: One Dark palette, switches with `vim.o.background`
 - `dolores-sotiria-bellou`: Gruvbox palette, switches with `vim.o.background`
+- `dolores-asotos`: Solarized palette, switches with `vim.o.background`

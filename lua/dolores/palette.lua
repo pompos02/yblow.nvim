@@ -47,6 +47,52 @@ local palette = {
 			c18 = "#cfd6dc", -- cursor surface
 		},
 	},
+	asotos = {
+		dark = {
+			bg = "#002b36", -- main background
+			c1 = "#002b36", -- dim background
+			c2 = "#073642", -- raised surface
+			c3 = "#073642", -- active surface
+			c4 = "#46585d", -- accent surface
+			c5 = "#586e75", -- muted foreground
+			c6 = "#657b83", -- secondary foreground
+			text = "#839496", -- primary foreground
+			c7 = "#c5d8d8", -- strong foreground
+			c8 = "#b58900", -- warning accent
+			c9 = "#586e75", -- comment accent
+			c10 = "#859900", -- success accent
+			c11 = "#dc322f", -- error accent
+			c12 = "#268bd2", -- cool highlight
+			c13 = "#2aa198", -- type accent
+			c14 = "#6c71c4", -- primary accent
+			c15 = "#cb4b16", -- search accent
+			c16 = "#d33682", -- tertiary accent
+			c17 = "#073642", -- selected surface
+			c18 = "#586e75", -- cursor surface
+		},
+		light = {
+			bg = "#fdf6e3", -- main background
+			c1 = "#fdf6e3", -- dim background
+			c2 = "#eee8d5", -- raised surface
+			c3 = "#eee8d5", -- active surface
+			c4 = "#93a1a1", -- accent surface
+			c5 = "#93a1a1", -- muted foreground
+			c6 = "#657b83", -- secondary foreground
+			text = "#657b83", -- primary foreground
+			c7 = "#586e75", -- strong foreground
+			c8 = "#b58900", -- warning accent
+			c9 = "#93a1a1", -- comment accent
+			c10 = "#859900", -- success accent
+			c11 = "#dc322f", -- error accent
+			c12 = "#268bd2", -- cool highlight
+			c13 = "#2aa198", -- type accent
+			c14 = "#6c71c4", -- primary accent
+			c15 = "#cb4b16", -- search accent
+			c16 = "#d33682", -- tertiary accent
+			c17 = "#eee8d5", -- selected surface
+			c18 = "#93a1a1", -- cursor surface
+		},
+	},
 	kif = {
 		dark = {
 			bg = "#112e2a", -- main background
