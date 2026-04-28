@@ -209,6 +209,52 @@ local palette = {
 			c18 = "#ddccab", -- cursor surface
 		},
 	},
+	glykeria = {
+		dark = {
+			bg = "#282828", -- main background
+			c1 = "#1d2021", -- dim background
+			c2 = "#32302f", -- raised surface
+			c3 = "#3c3836", -- active surface
+			c4 = "#504945", -- accent surface
+			c5 = "#7c6f64", -- muted foreground
+			c6 = "#a89984", -- secondary foreground
+			text = "#ebdbb2", -- primary foreground
+			c7 = "#fb4934", -- strong foreground
+			c8 = "#fabd2f", -- warning accent
+			c9 = "#928374", -- comment accent
+			c10 = "#b8bb26", -- success accent
+			c11 = "#fb4934", -- error accent
+			c12 = "#83a598", -- cool highlight
+			c13 = "#fabd2f", -- type accent
+			c14 = "#d3869b", -- primary accent
+			c15 = "#fe8019", -- search accent
+			c16 = "#8ec07c", -- tertiary accent
+			c17 = "#3c3836", -- selected surface
+			c18 = "#504945", -- cursor surface
+		},
+		light = {
+			bg = "#fbf1c7", -- main background
+			c1 = "#f9f5d7", -- dim background
+			c2 = "#ebdbb2", -- raised surface
+			c3 = "#d5c4a1", -- active surface
+			c4 = "#bdae93", -- accent surface
+			c5 = "#a89984", -- muted foreground
+			c6 = "#7c6f64", -- secondary foreground
+			text = "#3c3836", -- primary foreground
+			c7 = "#cc241d", -- strong foreground
+			c8 = "#d79921", -- warning accent
+			c9 = "#928374", -- comment accent
+			c10 = "#98971a", -- success accent
+			c11 = "#cc241d", -- error accent
+			c12 = "#458588", -- cool highlight
+			c13 = "#d79921", -- type accent
+			c14 = "#b16286", -- primary accent
+			c15 = "#d65d0e", -- search accent
+			c16 = "#689d6a", -- tertiary accent
+			c17 = "#ebdbb2", -- selected surface
+			c18 = "#bdae93", -- cursor surface
+		},
+	},
 }
 
 local function apply_overrides(colors)
