@@ -301,7 +301,7 @@ local function set_highlights()
 		-- ["@function.builtin"] = { link = "@text" },
 		-- ["@function.macro"] = { link = "@text" },
 
-		["@function.method"] = { link = "@text" },
+		-- ["@function.method"] = { link = "@text" },
 
 		["@constructor"] = { link = "Function" },
 		["@operator"] = { link = "Operator" },
