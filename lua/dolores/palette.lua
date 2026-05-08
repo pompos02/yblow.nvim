@@ -203,10 +203,8 @@ local palette = {
 			c10 = "#5eff6c", -- strings, quickfix filenames, success/green diagnostics
 			c11 = "#ff6e5e", -- errors, exceptions, SpellBad, search labels
 			c12 = "#5ea1ff", -- functions, methods, fields, visual selection, match highlights
-			-- c13 = "#5ef1ff", -- types, imports, quickfix line/column numbers
 			c13 = "#bd5eff", -- types, imports, quickfix line/column numbers
 			c14 = "#ff5ea0", -- constants, booleans, numbers, labels, titles, directories
-            -- #ff5ea0
 			c15 = "#5ef1ff", -- CurSearch background
 			c16 = "#ff5ef1", -- special comments, messages, links, cyan/teal accents
 			c17 = "#3c4048", -- selected completion, picker, buffer, and tab backgrounds
