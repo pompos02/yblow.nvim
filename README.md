@@ -22,6 +22,6 @@ Available schemes:
 - `dolores`: default palette, switches with `vim.o.background`
 - `dolores-kif`: green palette
 - `dolores-thalasses`: One Dark palette, switches with `vim.o.background`
+- `dolores-stratos`: Monokai palette
 - `dolores-sotiria-bellou`: Gruvbox palette, switches with `vim.o.background`
 - `dolores-glykeria`: Gruvbox palette, switches with `vim.o.background`
-- `dolores-asotos`: Solarized palette, switches with `vim.o.background`
